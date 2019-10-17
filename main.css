@@ -22,9 +22,14 @@
     flex: auto;
 }
 
+#reservations-container {
+    left: 40%;
+    top: 60%;
+    position: relative;
+    flex: auto;
+}
+
 #check-reservations-button{
-    left:40%;
-    top: 65%;
     position: relative;
     background-color: lightgreen;
     flex: auto;

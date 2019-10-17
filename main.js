@@ -23,7 +23,7 @@ const setHtmlAttribute = (attributeName, attributeValue, element) => {
     setHtmlAttribute(MIN_ATTRIBUTE, new Date().toISOString().split("T")[0], endDate)
 })();
 
-checkReservations.addEventListener(CLICK_EVENT, () =>{
+checkReservations.addEventListener(CLICK_EVENT, () => {
     let startIndex = helper.GetIndexFromDate(new Date(startDate.value));
     let endIndex = helper.GetIndexFromDate(new Date(endDate.value));
 
