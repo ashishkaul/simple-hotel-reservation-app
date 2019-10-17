@@ -26,8 +26,6 @@ const setHtmlAttribute = (attributeName, attributeValue, element) => {
 checkReservations.addEventListener(CLICK_EVENT, () => {
     let startIndex = helper.GetIndexFromDate(new Date(startDate.value));
     let endIndex = helper.GetIndexFromDate(new Date(endDate.value));
-
-    console.log(startIndex);
     
     if(helper.IsBookingPossible(startIndex, endIndex, noOfHotelRooms.value)){
         helper.BookRooms(startIndex, endIndex);
