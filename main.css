@@ -1,0 +1,31 @@
+#reservation-container {
+    left: 40%;
+    position: absolute;
+    border: 1px double gray;
+    background-color: lightblue;
+    width: 500px;
+    height: 250px;
+    flex: auto
+}
+
+#size-container {
+    left: 20%;
+    top: 20%;
+    position: relative;
+    flex: auto;
+}
+
+#date-container {
+    top: 40%;
+    left: 10%;
+    position: relative;
+    flex: auto;
+}
+
+#check-reservations-button{
+    left:40%;
+    top: 65%;
+    position: relative;
+    background-color: lightgreen;
+    flex: auto;
+}
